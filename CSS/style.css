@@ -131,8 +131,8 @@ header {
 
 .active {
   position: relative;
-  /* color: var(--accent-collor);
-  padding-bottom: 32px;
+  color: var(--accent-collor);
+  /* padding-bottom: 32px;
   border-bottom: 3px solid var(--accent-collor); */
 }
 
