@@ -336,7 +336,11 @@ footer {
   transition: 250ms transform linear, 250ms opacity linear;
 }
 
-.portfolio-card a:hover .filtr-item,
+.portfolio-card:hover .filtr-item {
+  transform: translateY(0);
+  opacity: 1;
+}
+
 .portfolio-card a:focus .filtr-item {
   transform: translateY(0);
   opacity: 1;
